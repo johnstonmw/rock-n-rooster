@@ -1,0 +1,156 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  z-index: 10;
+}
+p {
+  line-height: 2rem;
+}
+.button-collapse {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.icon-block {
+  padding: 10px 15px;
+  background-color: #1d7f96;
+  object-fit: contain;
+  max-height: 1200px;
+  min-height: relative;
+}
+.image-icon {
+  max-width: 100%;
+  margin-top: 5%;
+
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+.brand-logo {
+  width: 20%;
+  position: fixed !important;
+  top: 0px;
+  left: 3%;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.nav-white {
+  position: relative;
+  background-color: black !important;
+}
+.teal-text {
+  color: #1d7f96 !important;
+}
+.teal {
+  background-color: #1d7f96 !important;
+}
+.rocksalt {
+  font-family: 'Rock Salt', cursive;
+}
+.oswald {
+font-family: 'Oswald', sans-serif;
+}
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 540px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  background-position: center center; 
+}
+.social-list {
+  display: inline;
+  margin: 5%;
+}
+.facebook {
+  max-width: 10%;
+  display:block;
+  background-image: url('logos/facebook.png');
+}
+.facebook:hover {
+    background-image: url('logos/instagram.png');
+}
+.twitter {
+  max-width: 10%;
+}
+.instagram {
+  max-width: 10%;
+}
+.pinterest {
+  max-width: 10%;
+}
+
+.textshadow
+  {
+    text-shadow: 2px 2px #848482;
+}
+.phone {
+  font-family: oswald;
+}
+.book-now {
+  margin-top: 15%;
+}
+.full-day-button {
+  margin-top: 10% !important;
+}
+.title-shadow {
+  text-shadow: 4px 4px 8px #555;
+}
+
+/* Gallery */
+
+.materialboxed {
+  display: block;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  position: relative;
+  transition: opacity .4s;
+}
+
+
+.gallery-image {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  width: 32%;
+
+}
+
+
+
